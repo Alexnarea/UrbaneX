@@ -1,27 +1,33 @@
 # UrbaneX
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+## Descripcion del proyecto
 
-## Development server
+Este proyecto es una aplicación Angular que simula la comunicación entre un gerente (componente padre) y un empleado (componente hijo) en una tienda de ropa urbana. La comunicación se realiza utilizando las directivas @Input, @Output y @ViewChild de Angular.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Estructura del proyecto
 
-## Code scaffolding
+La estructura del proyecto incluye los siguientes componentes:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- JefeComponent: Representa al gerente de la tienda.
+- EmpleadoComponent: Representa a un empleado de la tienda.
 
-## Build
+## Comandos utiles 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- ng serve: Inicia el servidor de desarrollo.
+- ng generate component [name] --standalone: Crea un nuevo componente standalone.
+- ng add ng-zorro-antd: Instala NG-ZORRO en el proyecto.
 
-## Running unit tests
+## Dependencias
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Angular
+- NG-ZORRO
 
-## Running end-to-end tests
+## Conclusion
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Este proyecto demuestra cómo utilizar la comunicación entre componentes en Angular utilizando @Input, @Output y @ViewChild. Con esta configuración, el gerente de la tienda puede enviar instrucciones al empleado y recibir confirmaciones de vuelta, simulando una interacción en una tienda de ropa urbana
 
-## Further help
+## Evidencia 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![image](https://github.com/Alexnarea/UrbaneX/assets/146900631/24b24ce0-75cc-4c21-bff2-b6842f458cf3)
+
+
