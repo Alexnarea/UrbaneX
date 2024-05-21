@@ -1,0 +1,16 @@
+<div style="padding: 20px;">
+    <nz-card nzTitle="Gerente de la Tienda de Ropa Urbana😎:">
+      <div class="borderVariables">
+        <div>Variables del Jefe:</div>
+        <div>parentMessageInput</div>
+        <div>childMessageEventOutput</div>
+      </div>
+      <div class="border">Empleado usando &#64;Output: <h3>{{ mensajeDelEmpleado }}</h3></div>
+      <app-empleado [parentMessageInput]="instruccionDelGerente" (childMessageEventOutput)="recibirConfirmacion($event)">
+        <div class="border">Gerente usando &#64;ContentChild: 
+          <h3>Por este medio te envío directrices (HTML escrito en el Jefe) para mejorar la presentación de la tienda y atraer más clientes</h3>
+        </div>
+      </app-empleado>
+    </nz-card>
+  </div>
+  
